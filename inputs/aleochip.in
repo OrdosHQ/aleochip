@@ -1,0 +1,13 @@
+// The program input for aleochip/src/main.leo
+[get_chip_hash]
+chip_data: ChipData = ChipData {
+    finger_print: 123u128,
+    id: 123u128,
+    type: 123u128,    
+}
+
+{finger_print:123u128,id:123u128,type:123u128}
+
+leo run get_chip_hash "{finger_print:123u128,id:123u128,kind:123u128}"
+
+https://wt6yntazy4.execute-api.us-east-1.amazonaws.com/default/aleo-hasher?names=finger_print&names=id&names=kind&types=u128&types=u128&types=u128&values=123&values=123&values=123
